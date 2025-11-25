@@ -1,4 +1,4 @@
-import { Box, Cylinder, Plane } from '@react-three/drei'
+import { Box, Cylinder } from '@react-three/drei'
 import { FLOOR_HEIGHT, BUILDING_RADIUS } from '../constants'
 
 export default function LobbySection() {

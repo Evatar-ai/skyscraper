@@ -2,7 +2,7 @@ import { Text, Box } from '@react-three/drei'
 import { FLOOR_HEIGHT, BUILDING_RADIUS } from '../constants'
 import Room from './Room'
 import Human from './Human'
-import { Table, Chair } from './Furniture'
+
 
 function Escalator({ position, rotation }: { position: [number, number, number], rotation: [number, number, number] }) {
     return (

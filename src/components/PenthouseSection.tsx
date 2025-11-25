@@ -1,7 +1,6 @@
-import { DoubleSide } from 'three'
-import { Box, Cylinder, Text } from '@react-three/drei'
+import { Box, Text } from '@react-three/drei'
 import { FLOOR_HEIGHT, BUILDING_RADIUS } from '../constants'
-import { GrandPiano, Bed, Table, Chair } from './Furniture'
+import { GrandPiano, Chair } from './Furniture'
 import Human from './Human'
 
 function ServerRack({ position, rotation }: { position: [number, number, number], rotation?: [number, number, number] }) {

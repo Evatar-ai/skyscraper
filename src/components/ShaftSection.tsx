@@ -4,9 +4,9 @@ import { useFrame } from '@react-three/fiber'
 import { FLOOR_HEIGHT, BUILDING_RADIUS } from '../constants'
 import Room from './Room'
 
-function ElevatorCar({ x, z, index }: { x: number, z: number, index: number }) {
+function ElevatorCar({ x, z }: { x: number, z: number }) {
     const ref = useRef<any>()
-    const speed = 20 + Math.random() * 20
+
     const offset = Math.random() * 1000
 
     useFrame((state) => {
@@ -95,7 +95,7 @@ export default function ShaftSection() {
                     >
                         <meshStandardMaterial color="#222" metalness={0.8} roughness={0.2} transparent opacity={0.5} />
                     </Cylinder>
-                    <ElevatorCar x={x} z={z} index={k} />
+                    <ElevatorCar x={x} z={z} />
                 </group>
             )
         }
