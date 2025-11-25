@@ -1,6 +1,5 @@
-import { Canvas, useThree } from '@react-three/fiber'
+import { Canvas } from '@react-three/fiber'
 import { FlyControls } from '@react-three/drei'
-import { useEffect } from 'react'
 import Skyscraper from './components/Skyscraper'
 import Environment from './components/Environment'
 import CameraManager from './components/CameraManager'
